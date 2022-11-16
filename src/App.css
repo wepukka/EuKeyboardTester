@@ -2,37 +2,93 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ClickedKey {
+  font-size: 40px;
+  color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rowContainer {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.button {
+  font-size: 1.5vh;
+  background-color: grey;
+  margin: 2px;
+  width: 6vh;
+  height: 6vh;
+  min-width: 5vh;
+}
+
+.emptyButton {
+  margin: 2px;
+  width: 6vh;
+  height: 6vh;
+  min-width: 5vh;
+}
+
+.keyboardButton_Spacebar {
+  width: 51vh;
+  min-width: 51vh;
+}
+
+.keyboardButton_Enter {
+  height: 12.5vh;
+  min-height: 8vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.onPressKeyboard {
+  background-color: red;
+}
+
+.keysRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 2vh;
+}
+.lowerArrowRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.upperArrowRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.keyBox {
+  min-height: 20vh;
+ 
+}
+
+.fRowSpacer {
+  min-height: 1vh;
+}
+
+.functionButtons {
+  display: flex;
+  flex-direction: row;
 }
