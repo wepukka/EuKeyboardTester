@@ -2,4 +2,4 @@
 
 Simple keyboard tester.
 
-[gfdgdfg](D:\GitRepos\keyboardtester\public\Keyboard.png)
+<img src="public/Keyboard.png" alt="keyboard" width="500"/>
