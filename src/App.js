@@ -43,7 +43,6 @@ function App() {
       let element = document.getElementById("keyboardButton_" + clickedKey)
       element.style.backgroundColor = "black"
     } catch (error) {
-      console.log(error)
     }
   }
 
